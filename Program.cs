@@ -21,7 +21,7 @@ namespace linq
     15, 8, 21, 24, 32, 13, 30, 12, 7, 54, 48, 4, 49, 96
 };
 
-            IEnumerable<int> fourSixMultiples = numbers.Where(number => number % 4 == 0 || g number % 6 == 0);
+            IEnumerable<int> fourSixMultiples = numbers.Where(number => number % 4 == 0 || number % 6 == 0);
 
             foreach (int number in fourSixMultiples)
             {
